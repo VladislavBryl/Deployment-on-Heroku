@@ -1,0 +1,13 @@
+{
+  "name": "easy-game",
+  "version": "0.1.3",
+  "description": "Some simple browser game",
+  "main": "index.js",
+  "repository": {
+    "home": "https://github.com/VladislavBryl/Deployment-on-Heroku/tree/main"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
