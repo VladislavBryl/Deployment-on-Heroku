@@ -13,8 +13,7 @@ $( () => {
 
 
 
-  var zoomIntensity = 0.2;
-
+var zoomIntensity = 0.2;
 var canvas = document.getElementById("map-zoom");
 canvas.height = 900;
 canvas.width = 1600;
@@ -34,18 +33,6 @@ var currentY = canvas.height/2;
 img.onload = function() {
   _Drag();
 }
-
-
-function draw(){
-  // Clear screen to white.
-      context.fillStyle = "white";
-      context.fillRect(originx,originy,1500/scale,1500/scale);
-      // Draw the black square.
-      context.drawImage(img, 0,0, 1800, 800, 0, 0, 1800, 800);
-      // Clear screen to white.
-}
-// Draw loop at 60FPS.
-setInterval(draw, 1000/60);
 
 canvas.onmousewheel = function (event){
     event.preventDefault();
