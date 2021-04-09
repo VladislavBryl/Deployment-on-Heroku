@@ -4,6 +4,10 @@ body {
   height: 100vh;
 }
 #map-zoom {
+	background-image: url('map-1.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 #map {
   width: auto;
@@ -38,10 +42,10 @@ body {
   left: 49%;
 }
 .player {
-  background-color: orange;
+  background-color: green;
 }
 .enemy {
-  background-color: black;
+  background-color: red;
 }
 .infantryLight {
   position: absolute;
