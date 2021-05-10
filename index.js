@@ -10,6 +10,6 @@ process
   })
   .on('uncaughtException', err => {
     console.log(err);
-  })ж
+  });
 
 const app = new App('.', process.env.PORT);
