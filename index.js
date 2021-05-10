@@ -15,4 +15,4 @@ process
     Core.log.info('Shutdown\n\n\n');
   });
 
-App.start();
+const app = new App('.', process.env.PORT);
