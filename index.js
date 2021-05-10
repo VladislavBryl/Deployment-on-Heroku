@@ -10,9 +10,6 @@ process
   })
   .on('uncaughtException', err => {
     console.log(err);
-  })
-  .on('exit', () => {
-    console.log('Shutdown\n\n\n');
-  });
+  })ж
 
 const app = new App('.', process.env.PORT);
