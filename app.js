@@ -42,10 +42,10 @@ const serveApi = (url, data) => {
 }
 
 class HTTP {
-  static start(root, port){
+  constructor(root, port){
     console.log('HTTP-server startup');
     ROOT = root;
-      HTTP_PORT = process.env.PORT || port;
+      HTTP_PORT = port;
     server = http.createServer((req, res) => {
       const { url, method } = req;
         if (method === 'post' || method === 'POST'){

@@ -12,4 +12,4 @@ process
     console.log(err);
   });
 
-const app = new App('.', process.env.PORT);
+const app = new App('.', process.env.PORT || 8000);
