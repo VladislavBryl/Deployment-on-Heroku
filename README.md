@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/VladislavBryl/Deployment-on-Heroku.svg?branch=main)
 # Browser Battlefield
 
 # About
